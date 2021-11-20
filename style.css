@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+:root {
+    --black: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.headerDiv{
+    width: 1520px;
+    height: 44px;
+    background-color:var(--black);
+}
+
+/* column div */
+.columnDiv{
+    width: 1520px;
+    height: 1872px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+
+}
+.columnContentDiv{width: 1520px;
+    height: 624px;
+    background-color:red;
+    
+    }
+
+
+.columnContentDiv img{
+    width: 1520px;
+    height: 100%;;
+
+}
+/* heding inside the div */
+.headingDiv{
+    width: 1520px;
+    height: 44px;
+    background-color:#f5f5f7;
+}
+.headingTextDiv{
+    width: 756px;
+    height: 44.5px;
+    margin-left: 382px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+}
+.headingTextDiv h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+.headingTextDiv i{
+    font-size: 13px;
+    color: blue;
+}
+.headingTextDiv a{
+    font-size: 13px;
+    color: blue;
+}
+
+/* table div */
+.tableDiv{
+    width: 1510px;
+    height: 1809px;
+    border: 5px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.tableContentDiv{
+    width: 745px;
+    height: 593px;
+    border: 5px solid white;
+}
+.tableContentDiv img{
+    width: 745px;
+    height: 593px;
+}
+
+/* footer div starts here */
+
+
+.footerDiv{
+    background-color: #f5f5f7;
+    width: 1520px;
+    height: 582px;
+
+}
+
+.footerInfoDiv{
+    width: 980px;
+    height: 112px;
+    margin-left: 270px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+    
+}
+
+.footerInfoDiv p{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+
+/* footer div ends here */
+/* footer table */
+.footerTableDiv{
+    width: 980px;
+    height: 357px;
+    margin-left: 270px;
+   
+    display: flex;
+    
+}
+
+.footerColumnDiv{
+    width: 196px;
+   height: 337px;
+
+    
+}
+.footerColumnDiv th{
+    padding-top: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footerColumnDiv th:hover{
+    text-decoration: underline;
+}
+.footerColumnDiv td{
+    font-size: 12px;
+    font-weight: 200px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.footerColumnDiv td:hover{
+    text-decoration: underline;
+}
+
+
+/* footer */
+.bottomLine{ padding-top: 34px;
+    
+        width: 980px;
+        height: 79px;
+        margin-left: 270px;
+      
+}
+
+.bottomInfo1{
+    width: 980px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-around;
+}
+
+.bottomInfo1 h3{font-size: 12px;
+    font-weight: 200px;
+    padding-top: 8px;
+    font-weight: 100;
+ }
+ .bottomInfo1 th{font-size: 12px;
+    font-weight: 200px;
+    padding-top: 8px;
+    font-weight: 100;
+ }
+ .thSpace{color: #f5f5f7;}
+ .thHover{
+     cursor: pointer;
+ }
+ .thHover:hover{
+     text-decoration: underline;
+ }
+ /* footer end here */
