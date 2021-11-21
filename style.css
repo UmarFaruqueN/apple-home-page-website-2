@@ -14,10 +14,56 @@
     width: 1520px;
     height: 44px;
     background-color:var(--black);
+    position: fixed;
+    color: rgb(103, 116, 114);
 }
+
+
+
+
+.headerSubDiv{
+    width: 1024px;
+    height: 44px;
+    margin-left: 248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.headerSubDiv img{
+    width: 20px;
+    height: 15px;
+    color:rgb(216, 210, 210);
+    cursor: pointer;
+}
+
+.headerSubDiv img:hover{
+    color:white;
+}
+
+.headerSubDiv h3{
+    font-size: 12px;
+    font-weight: unset;
+    color:rgb(216, 210, 210);
+    cursor: pointer;
+}
+.headerSubDiv h3:hover{
+    color: white;
+}
+.headerSubDiv i{
+    font-size: 20px;
+    color:rgb(216, 210, 210);
+    cursor: pointer;
+}
+.headerSubDiv i:hover{
+    color: white;
+}
+
 
 /* column div */
 .columnDiv{
+    padding-top: 45px;
     width: 1520px;
     height: 1872px;
     display: flex;
