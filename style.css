@@ -80,9 +80,12 @@
 
 .columnContentDiv img{
     width: 1520px;
-    height: 100%;;
+    height: 100%;
+    cursor: pointer;
 
 }
+
+
 /* heding inside the div */
 .headingDiv{
     width: 1520px;
